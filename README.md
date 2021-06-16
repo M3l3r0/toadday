@@ -2,5 +2,7 @@
 
 ![Image](wednesday.jfif)
 
-
+<p align="center">
+  <img src="wednesday.jfif" />
+</p>
 
