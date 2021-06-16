@@ -1,6 +1,6 @@
-## Bienvenido, es de mi agrado informarle del día en el que nos encontramos hoy
+Bienvenido, es de mi agrado informarle del día en el que nos encontramos hoy
 
-<p id="toad" align="center"><img src="wednesday.jfif"></img></p>
+<p id="toad" align="center"></p>
 
 
 <script>
@@ -8,19 +8,19 @@ function myFunction() {
   var d = new Date();
   var n = d.getDay()
   if(n == 1){
-  document.getElementById("toad").innerHTML = n;
+  document.getElementById("toad").innerHTML = "<img src="monday.jfif"></img>";
   }else if(n==2){
-  document.getElementById("toad").innerHTML = n;
+  document.getElementById("toad").innerHTML = "<img src="tuesday.jfif"></img>";
   }else if(n==3){
-  document.getElementById("toad").innerHTML = "<img src="wednesday.jfif" />";
+  document.getElementById("toad").innerHTML = "<img src="wednesday.jfif"></img>";
   }else if(n==4){
-  document.getElementById("toad").innerHTML = n;
+  document.getElementById("toad").innerHTML = "<img src="thursday.jfif"></img>";
   }else if(n==5){
-  document.getElementById("toad").innerHTML = n;
+  document.getElementById("toad").innerHTML = "<img src="friday.jfif"></img>";
   }else if(n==6){
-  document.getElementById("toad").innerHTML = n;
+  document.getElementById("toad").innerHTML = "<img src="saturday.jfif"></img>";
   }else if(n==7){
-  document.getElementById("toad").innerHTML = n;
+  document.getElementById("toad").innerHTML = "<img src="sunday.jfif"></img>";
   }
 }
 myFunction();
